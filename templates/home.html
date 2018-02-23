@@ -18,7 +18,7 @@
                         {{ post.content|custom_markdown|truncatewords_html:2 }}
                     </p>
                 </div>
-                <a class="pure-button" href="{% url "detail" id=post.id %}">Read More >>> </a>
+                <a class="pure-button" href="{% url "detail" id=post.id %}">more... </a>
         </section>
     {% endfor %}
 </div><!-- /.blog-post -->
